@@ -11,10 +11,16 @@ namespace WLVSTools.Logger.Web.Data.Entity
         public string? ExceptionMessage { get; set; }
 
         [Required]
+        public string? Exception { get; set; }
+
+        [Required]
         public string? ExceptionType { get; set; }
 
         [Required]
         public string? ExceptionSource { get; set; }
+
+        [Required]
+        public string AppName { get; set; }
 
         [Required]
         public string? ExceptionUrl { get; set; }
